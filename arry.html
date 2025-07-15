@@ -1,0 +1,35 @@
+
+let students = ["Alice", "Bob", "Charlie", "David", "Eva"];
+console.log("3rd student:", students[2]); // Index starts at 0
+
+
+
+let fruits = ["Apple", "Banana", "Mango", "Orange", "Grapes"];
+console.log("Array length:", fruits.length);
+for (let i = 0; i < fruits.length; i++) {
+  console.log(`Fruit ${i + 1}: ${fruits[i]}`);
+}
+
+
+  // Array Literal
+let colors1 = ["Red", "Green", "Blue"];
+// Array Constructor
+let colors2 = new Array("Red", "Green", "Blue");
+console.log("Using Literal:", colors1);
+console.log("Using Constructor:", colors2);
+
+
+ 
+  let numbers = [12, 75, 34, 99, 51, 20];
+console.log("Numbers > 50:");
+for (let i = 0; i < numbers.length; i++) {
+  if (numbers[i] > 50) {
+    console.log(numbers[i]);
+  }
+}
+
+
+let items = ["Pen", "Pencil", "Eraser"];
+items[5] = "Scale";
+console.log("Array length:", items.length);
+//Output: Array length: 6
